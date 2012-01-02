@@ -55,3 +55,5 @@ RubySlippers is still quite a young project, and there could be bugs. If you lik
 - **Per-host equips/uneqiups** - Deal with host specific equips and unequips
 - **Submodules** - Allow users to keep submodules in their repositories (your favourite scripts/dotfiles from github perhaps)
 - **Merge Conflicts** - Dealing with conflicts
+- **Hook login/logout** - Do a pull at login, run through file persistance, warn of uncommitted changes at logout (probably background tasks, or potentially a daemon process)
+
